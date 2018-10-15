@@ -33,16 +33,14 @@ namespace Championship.Controllers
                 Tournament tournamentDomain = Mapper.Map<TournamentViewModel, Tournament>(tournament);
                 tournamentDomain.genId();
                 string uri = "Tournament/set";
-                _tournamentRepository.Add(tournamentDomain, uri);
+                 var response =  _tournamentRepository.Add(tournamentDomain, uri);
                 TournamentViewModel tournamentVM = Mapper.Map<Tournament, TournamentViewModel>(tournamentDomain);
                 return tournamentVM;
-
             }
             catch (Exception ex)
             {
                 throw;
             }
-    
           }
 
         // PUT api/<controller>/5
@@ -54,5 +52,6 @@ namespace Championship.Controllers
         public void Delete(int id)
         {
         }
+
     }
 }

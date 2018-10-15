@@ -1,10 +1,11 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Championship.Domain.Interfaces
 {
    public interface IRepositoryBase<TEntity> where TEntity : class
     {
-        void Add(TEntity obj, string uri);
+        Task<TEntity> Add(TEntity obj, string uri);
 
         TEntity GetById(int id);
 
