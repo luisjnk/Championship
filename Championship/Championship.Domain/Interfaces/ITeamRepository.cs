@@ -2,7 +2,7 @@
 
 namespace Championship.Domain.Interfaces
 {
-    interface ITeamRepository : IRepositoryBase<Team>
+    public interface ITeamRepository : IRepositoryBase<Team>
     {
     }
 }

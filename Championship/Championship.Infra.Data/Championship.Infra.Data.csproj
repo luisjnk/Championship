@@ -13,6 +13,8 @@
     <PackageReference Include="EntityFramework" Version="6.1.3" />
     <PackageReference Include="EntityFramework.Commands" Version="7.0.0-rc1-final" />
     <PackageReference Include="EntityFramework.MicrosoftSqlServer" Version="7.0.0-rc1-final" />
+    <PackageReference Include="FireSharp" Version="2.0.4" />
+    <PackageReference Include="FireSharp.Serialization.JsonNet" Version="1.1.0" />
   </ItemGroup>
 
   <ItemGroup>

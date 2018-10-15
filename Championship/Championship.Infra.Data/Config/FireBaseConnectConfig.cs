@@ -1,4 +1,5 @@
-﻿using FireSharp.Config;
+﻿using FireSharp;
+using FireSharp.Config;
 using FireSharp.Interfaces;
 
 namespace Championship.Infra.Data.Config
@@ -15,16 +16,21 @@ namespace Championship.Infra.Data.Config
             this.BasePath = "https://championshipdb.firebaseio.com/";
         }
 
-        public void Connect()
+        public IFirebaseClient Connect()
         {
             IFirebaseConfig config = new FirebaseConfig {
                 AuthSecret = this.AuthString,
                 BasePath = this.BasePath
             };
             
-            client = new FireSharp.FirebaseClient(config);
-            if (client != null) {
-                
+            client = new FirebaseClient(config);
+            if (client != null)
+            {
+                return client;
+            }
+            else
+            {
+                return client;
             }
         }
     }
