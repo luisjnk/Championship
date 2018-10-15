@@ -1,10 +1,10 @@
-﻿using Championship.Domain.Entities;
+﻿using System.Collections.Generic;
+using Championship.Domain.Entities;
 using Championship.Domain.Interfaces;
-using System.Collections.Generic;
 
 namespace Championship.Infra.Data.Repositories
 {
-    public class TeamRepository : RepositoryBase<Team>, ITeamRepository
+    public class PlayerRepository : RepositoryBase<Player>, IPlayerRepository
     {
         public IEnumerable<Team> SearchByName(string name)
         {

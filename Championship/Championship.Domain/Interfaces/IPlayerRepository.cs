@@ -3,8 +3,9 @@ using System.Collections.Generic;
 
 namespace Championship.Domain.Interfaces
 {
-    public interface ITeamRepository : IRepositoryBase<Team>
+    public interface IPlayerRepository : IRepositoryBase<Player>
     {
         IEnumerable<Team> SearchByName(string name);
+
     }
 }
