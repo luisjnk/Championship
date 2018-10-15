@@ -22,6 +22,7 @@ namespace Championship.Infra.Data.Repositories
         {   try
             {
                 SetResponse response = await this.client.SetAsync(uri, obj);
+
             } catch(Exception ex)
             {
                 throw new Exception();
