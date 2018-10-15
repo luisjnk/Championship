@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "EntityFramework/6.2.0": {
+      "EntityFramework/6.1.3": {
         "type": "package",
         "compile": {
           "lib/net45/EntityFramework.SqlServer.dll": {},
@@ -160,15 +160,15 @@
     }
   },
   "libraries": {
-    "EntityFramework/6.2.0": {
-      "sha512": "7u/Xw6dnODaoB8opNC/Uz8nT/LKOxsvJhObYU+m0CErCXdOsyTC1MZwqQoam8lMehLTxBoMBewvWoOQUBaUKsQ==",
+    "EntityFramework/6.1.3": {
+      "sha512": "+4M+YhFZHQc/cdctqMyXSdbQMrG3CdSgP8wFH+yiUYPYAnwNLug4xtrwMrekOHAgpTZicrhMbSYASxLDoRCMDQ==",
       "type": "package",
-      "path": "entityframework/6.2.0",
+      "path": "entityframework/6.1.3",
       "files": [
         ".signature.p7s",
-        "content/net40/App.config.transform",
-        "content/net40/Web.config.transform",
-        "entityframework.6.2.0.nupkg.sha512",
+        "content/App.config.transform",
+        "content/Web.config.transform",
+        "entityframework.6.1.3.nupkg.sha512",
         "entityframework.nuspec",
         "lib/net40/EntityFramework.SqlServer.dll",
         "lib/net40/EntityFramework.SqlServer.xml",
@@ -689,7 +689,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "Championship.Domain >= 1.0.0",
-      "EntityFramework >= 6.2.0",
+      "EntityFramework >= 6.1.3",
       "EntityFramework.Commands >= 7.0.0-rc1-final",
       "EntityFramework.MicrosoftSqlServer >= 7.0.0-rc1-final",
       "FireSharp >= 2.0.4",
@@ -704,11 +704,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\luis_\\source\\repos\\Championship\\Championship.Infra.Data\\Championship.Infra.Data.csproj",
+      "projectUniqueName": "C:\\Projects\\Championship\\Championship\\Championship.Infra.Data\\Championship.Infra.Data.csproj",
       "projectName": "Championship.Infra.Data",
-      "projectPath": "C:\\Users\\luis_\\source\\repos\\Championship\\Championship.Infra.Data\\Championship.Infra.Data.csproj",
+      "projectPath": "C:\\Projects\\Championship\\Championship\\Championship.Infra.Data\\Championship.Infra.Data.csproj",
       "packagesPath": "C:\\Users\\luis_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luis_\\source\\repos\\Championship\\Championship.Infra.Data\\obj\\",
+      "outputPath": "C:\\Projects\\Championship\\Championship\\Championship.Infra.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -727,8 +727,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\luis_\\source\\repos\\Championship\\Championship.Domain\\Championship.Domain.csproj": {
-              "projectPath": "C:\\Users\\luis_\\source\\repos\\Championship\\Championship.Domain\\Championship.Domain.csproj"
+            "C:\\Projects\\Championship\\Championship\\Championship.Domain\\Championship.Domain.csproj": {
+              "projectPath": "C:\\Projects\\Championship\\Championship\\Championship.Domain\\Championship.Domain.csproj"
             }
           }
         }
@@ -744,7 +744,7 @@
         "dependencies": {
           "EntityFramework": {
             "target": "Package",
-            "version": "[6.2.0, )"
+            "version": "[6.1.3, )"
           },
           "EntityFramework.Commands": {
             "target": "Package",
@@ -782,7 +782,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "O pacote 'EntityFramework 6.2.0' foi restaurado usando '.NETFramework,Version=v4.6.1' em vez da estrutura de destino do projeto '.NETStandard,Version=v2.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "message": "O pacote 'EntityFramework 6.1.3' foi restaurado usando '.NETFramework,Version=v4.6.1' em vez da estrutura de destino do projeto '.NETStandard,Version=v2.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
       "libraryId": "EntityFramework",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"

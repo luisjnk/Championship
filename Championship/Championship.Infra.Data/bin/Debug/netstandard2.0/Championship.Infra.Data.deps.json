@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "f61cb531fa13e3819f747b388b54e16332f88bbc"
+    "signature": "3ae1bb94e20dfee8a3c1d9754986f5fbc62acb3c"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,7 +10,7 @@
       "Championship.Infra.Data/1.0.0": {
         "dependencies": {
           "Championship.Domain": "1.0.0",
-          "EntityFramework": "6.2.0",
+          "EntityFramework": "6.1.3",
           "EntityFramework.Commands": "7.0.0-rc1-final",
           "EntityFramework.MicrosoftSqlServer": "7.0.0-rc1-final",
           "FireSharp": "2.0.4",
@@ -20,15 +20,15 @@
           "Championship.Infra.Data.dll": {}
         }
       },
-      "EntityFramework/6.2.0": {
+      "EntityFramework/6.1.3": {
         "runtime": {
           "lib/net45/EntityFramework.SqlServer.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.2.61023.0"
+            "fileVersion": "6.1.40302.0"
           },
           "lib/net45/EntityFramework.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.2.61023.0"
+            "fileVersion": "6.1.40302.0"
           }
         }
       },
@@ -129,12 +129,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "EntityFramework/6.2.0": {
+    "EntityFramework/6.1.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7u/Xw6dnODaoB8opNC/Uz8nT/LKOxsvJhObYU+m0CErCXdOsyTC1MZwqQoam8lMehLTxBoMBewvWoOQUBaUKsQ==",
-      "path": "entityframework/6.2.0",
-      "hashPath": "entityframework.6.2.0.nupkg.sha512"
+      "sha512": "sha512-+4M+YhFZHQc/cdctqMyXSdbQMrG3CdSgP8wFH+yiUYPYAnwNLug4xtrwMrekOHAgpTZicrhMbSYASxLDoRCMDQ==",
+      "path": "entityframework/6.1.3",
+      "hashPath": "entityframework.6.1.3.nupkg.sha512"
     },
     "EntityFramework.Commands/7.0.0-rc1-final": {
       "type": "package",

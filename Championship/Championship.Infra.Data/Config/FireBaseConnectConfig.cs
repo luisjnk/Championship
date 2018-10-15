@@ -1,8 +1,5 @@
 ﻿using FireSharp.Config;
 using FireSharp.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Championship.Infra.Data.Config
 {

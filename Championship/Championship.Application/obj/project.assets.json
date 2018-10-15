@@ -182,11 +182,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\luis_\\source\\repos\\Championship\\Championship.Application\\Championship.Application.csproj",
+      "projectUniqueName": "C:\\Projects\\Championship\\Championship\\Championship.Application\\Championship.Application.csproj",
       "projectName": "Championship.Application",
-      "projectPath": "C:\\Users\\luis_\\source\\repos\\Championship\\Championship.Application\\Championship.Application.csproj",
+      "projectPath": "C:\\Projects\\Championship\\Championship\\Championship.Application\\Championship.Application.csproj",
       "packagesPath": "C:\\Users\\luis_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luis_\\source\\repos\\Championship\\Championship.Application\\obj\\",
+      "outputPath": "C:\\Projects\\Championship\\Championship\\Championship.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
