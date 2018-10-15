@@ -1,0 +1,12 @@
+C:\Users\luis_\source\repos\Championship\Championship.Infra.Data\bin\Debug\netstandard2.0\Championship.Infra.Data.deps.json
+C:\Users\luis_\source\repos\Championship\Championship.Infra.Data\bin\Debug\netstandard2.0\Championship.Infra.Data.dll
+C:\Users\luis_\source\repos\Championship\Championship.Infra.Data\bin\Debug\netstandard2.0\Championship.Infra.Data.pdb
+C:\Users\luis_\source\repos\Championship\Championship.Infra.Data\bin\Debug\netstandard2.0\Championship.Domain.dll
+C:\Users\luis_\source\repos\Championship\Championship.Infra.Data\bin\Debug\netstandard2.0\Championship.Domain.pdb
+C:\Users\luis_\source\repos\Championship\Championship.Infra.Data\obj\Debug\netstandard2.0\Championship.Infra.Data.csprojAssemblyReference.cache
+C:\Users\luis_\source\repos\Championship\Championship.Infra.Data\obj\Debug\netstandard2.0\Championship.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\luis_\source\repos\Championship\Championship.Infra.Data\obj\Debug\netstandard2.0\Championship.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\luis_\source\repos\Championship\Championship.Infra.Data\obj\Debug\netstandard2.0\Championship.Infra.Data.AssemblyInfo.cs
+C:\Users\luis_\source\repos\Championship\Championship.Infra.Data\obj\Debug\netstandard2.0\Championship.Infra.Data.csproj.CopyComplete
+C:\Users\luis_\source\repos\Championship\Championship.Infra.Data\obj\Debug\netstandard2.0\Championship.Infra.Data.dll
+C:\Users\luis_\source\repos\Championship\Championship.Infra.Data\obj\Debug\netstandard2.0\Championship.Infra.Data.pdb

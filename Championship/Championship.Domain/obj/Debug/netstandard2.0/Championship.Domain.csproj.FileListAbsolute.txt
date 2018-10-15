@@ -1,0 +1,9 @@
+C:\Users\luis_\source\repos\Championship\Championship.Domain\bin\Debug\netstandard2.0\Championship.Domain.deps.json
+C:\Users\luis_\source\repos\Championship\Championship.Domain\bin\Debug\netstandard2.0\Championship.Domain.dll
+C:\Users\luis_\source\repos\Championship\Championship.Domain\bin\Debug\netstandard2.0\Championship.Domain.pdb
+C:\Users\luis_\source\repos\Championship\Championship.Domain\obj\Debug\netstandard2.0\Championship.Domain.csprojAssemblyReference.cache
+C:\Users\luis_\source\repos\Championship\Championship.Domain\obj\Debug\netstandard2.0\Championship.Domain.csproj.CoreCompileInputs.cache
+C:\Users\luis_\source\repos\Championship\Championship.Domain\obj\Debug\netstandard2.0\Championship.Domain.AssemblyInfoInputs.cache
+C:\Users\luis_\source\repos\Championship\Championship.Domain\obj\Debug\netstandard2.0\Championship.Domain.AssemblyInfo.cs
+C:\Users\luis_\source\repos\Championship\Championship.Domain\obj\Debug\netstandard2.0\Championship.Domain.dll
+C:\Users\luis_\source\repos\Championship\Championship.Domain\obj\Debug\netstandard2.0\Championship.Domain.pdb

@@ -1,0 +1,215 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "f61cb531fa13e3819f747b388b54e16332f88bbc"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "Championship.Infra.Data/1.0.0": {
+        "dependencies": {
+          "Championship.Domain": "1.0.0",
+          "EntityFramework": "6.2.0",
+          "EntityFramework.Commands": "7.0.0-rc1-final",
+          "EntityFramework.MicrosoftSqlServer": "7.0.0-rc1-final",
+          "FireSharp": "2.0.4",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "Championship.Infra.Data.dll": {}
+        }
+      },
+      "EntityFramework/6.2.0": {
+        "runtime": {
+          "lib/net45/EntityFramework.SqlServer.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.2.61023.0"
+          },
+          "lib/net45/EntityFramework.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.2.61023.0"
+          }
+        }
+      },
+      "EntityFramework.Commands/7.0.0-rc1-final": {
+        "runtime": {
+          "lib/net451/EntityFramework.Commands.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.11116"
+          }
+        }
+      },
+      "EntityFramework.MicrosoftSqlServer/7.0.0-rc1-final": {
+        "runtime": {
+          "lib/net451/EntityFramework.MicrosoftSqlServer.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.11116"
+          }
+        }
+      },
+      "FireSharp/2.0.4": {
+        "dependencies": {
+          "Microsoft.Bcl.Async": "1.0.168",
+          "Microsoft.Net.Http": "2.2.28",
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "runtime": {
+          "lib/portable-net45+sl5+wp8+win8/FireSharp.dll": {
+            "assemblyVersion": "2.0.3.0",
+            "fileVersion": "2.0.3.0"
+          }
+        }
+      },
+      "Microsoft.Bcl/1.1.9": {
+        "dependencies": {
+          "Microsoft.Bcl.Build": "1.0.14"
+        }
+      },
+      "Microsoft.Bcl.Async/1.0.168": {
+        "dependencies": {
+          "Microsoft.Bcl": "1.1.9"
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Threading.Tasks.Extensions.Desktop.dll": {
+            "assemblyVersion": "1.0.168.0",
+            "fileVersion": "1.0.168.0"
+          },
+          "lib/net40/Microsoft.Threading.Tasks.Extensions.dll": {
+            "assemblyVersion": "1.0.12.0",
+            "fileVersion": "1.0.168.0"
+          },
+          "lib/net40/Microsoft.Threading.Tasks.dll": {
+            "assemblyVersion": "1.0.12.0",
+            "fileVersion": "1.0.168.0"
+          }
+        }
+      },
+      "Microsoft.Bcl.Build/1.0.14": {},
+      "Microsoft.Net.Http/2.2.28": {
+        "dependencies": {
+          "Microsoft.Bcl": "1.1.9",
+          "Microsoft.Bcl.Build": "1.0.14"
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Extensions.dll": {
+            "assemblyVersion": "2.2.28.0",
+            "fileVersion": "2.2.28.0"
+          },
+          "lib/net45/System.Net.Http.Primitives.dll": {
+            "assemblyVersion": "4.2.28.0",
+            "fileVersion": "4.2.28.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/6.0.4": {
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.4.17603"
+          }
+        }
+      },
+      "Championship.Domain/1.0.0": {
+        "runtime": {
+          "Championship.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Championship.Infra.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EntityFramework/6.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7u/Xw6dnODaoB8opNC/Uz8nT/LKOxsvJhObYU+m0CErCXdOsyTC1MZwqQoam8lMehLTxBoMBewvWoOQUBaUKsQ==",
+      "path": "entityframework/6.2.0",
+      "hashPath": "entityframework.6.2.0.nupkg.sha512"
+    },
+    "EntityFramework.Commands/7.0.0-rc1-final": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4Hv7YX9/FXRBSrdUgXLMFpFRXkpBllBP6tBjv2A3T0cOwFRyGxBY2pxl9JBKi2Zz/AIArSQXOP/2BxRarpCkCA==",
+      "path": "entityframework.commands/7.0.0-rc1-final",
+      "hashPath": "entityframework.commands.7.0.0-rc1-final.nupkg.sha512"
+    },
+    "EntityFramework.MicrosoftSqlServer/7.0.0-rc1-final": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ofgGi59Y2TfTC0PcxTeD//FQ8DTO9+BrL/myxlqIzEO+0ANgDvN8z8MMmW0XD5nmgP328lxS7MFTFiSFe8duVw==",
+      "path": "entityframework.microsoftsqlserver/7.0.0-rc1-final",
+      "hashPath": "entityframework.microsoftsqlserver.7.0.0-rc1-final.nupkg.sha512"
+    },
+    "FireSharp/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-laSHpVUBG6iCTUixmpeUmYxie2zbziOBM+LU0v2A0ETE9dUyBA+8aY63xql/o8LXj+kFybBLYUKBUrLCZWaq+A==",
+      "path": "firesharp/2.0.4",
+      "hashPath": "firesharp.2.0.4.nupkg.sha512"
+    },
+    "Microsoft.Bcl/1.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hNwfncPxAzn88bBg1D+KlwlknDOIaXE/OZM3c32HkafZlA8d2Xl571orH0YTkDIJocf7DXXxfxQhTaGGetuPFw==",
+      "path": "microsoft.bcl/1.1.9",
+      "hashPath": "microsoft.bcl.1.1.9.nupkg.sha512"
+    },
+    "Microsoft.Bcl.Async/1.0.168": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gnEeAJTwzGgyeT6HkRorILuo8QhAZznkyIbgX0xAlTKB7H5iIS4n62WrQZoINNBpYLIC5Npiikqy7SNvxd3ESg==",
+      "path": "microsoft.bcl.async/1.0.168",
+      "hashPath": "microsoft.bcl.async.1.0.168.nupkg.sha512"
+    },
+    "Microsoft.Bcl.Build/1.0.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-57EJ/NGEDQkIlQs9aO4adkYeaHMdg+pn5D8RfO1ZXQJgHOjTfGH+kWfppEaD6cg0PE2kGn9/GsACcu2LLyJM0g==",
+      "path": "microsoft.bcl.build/1.0.14",
+      "hashPath": "microsoft.bcl.build.1.0.14.nupkg.sha512"
+    },
+    "Microsoft.Net.Http/2.2.28": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pYhtp5B7xeruXU8klVfbLglT/HU2ViWtvZbpdMPACwdP1KtNNXF8Aw51aUwYnto9NAFOJug8AvsAF3g/OizJ7Q==",
+      "path": "microsoft.net.http/2.2.28",
+      "hashPath": "microsoft.net.http.2.2.28.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/6.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-POcHreXEQ0vqCFkYLlQ7+WYiVFvi5z/mhZSMIxLorb1Mm8VUWwSpyFXNEC4Um4APWSaRTkzaYXP/dWrFrub/BA==",
+      "path": "newtonsoft.json/6.0.4",
+      "hashPath": "newtonsoft.json.6.0.4.nupkg.sha512"
+    },
+    "Championship.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
