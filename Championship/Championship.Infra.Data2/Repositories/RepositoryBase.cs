@@ -18,11 +18,14 @@ namespace Championship.Infra.Data.Repositories
             this.client = connect.Connect();
         }
 
-        public async void Add(TEntity obj)
-        {   
-            SetResponse response = await this.client.SetAsync("todos/set", obj);
-
-            throw new NotImplementedException();
+        public async void Add(TEntity obj, string uri)
+        {   try
+            {
+                SetResponse response = await this.client.SetAsync(uri, obj);
+            } catch(Exception ex)
+            {
+                throw new Exception();
+            }
         }
 
         public void Dispose()

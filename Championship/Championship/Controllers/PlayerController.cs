@@ -27,7 +27,9 @@ namespace Championship.Controllers
         public void Post([FromBody]PlayerViewModel player)
         {
             var playerDomain = Mapper.Map<PlayerViewModel, Player>(player);
-            _playerRepository.Add(playerDomain);
+            string uri = "players/set";
+
+            _playerRepository.Add(playerDomain, uri);
         }
 
         // PUT api/<controller>/5

@@ -6,9 +6,15 @@ namespace Championship.Infra.Data.Repositories
 {
     public class TeamRepository : RepositoryBase<Team>, ITeamRepository
     {
+
+        public TeamRepository()
+        {
+            this.Connect();
+        }
         public IEnumerable<Team> SearchByName(string name)
         {
             throw new System.NotImplementedException();
         }
+
     }
 }

@@ -1,10 +1,17 @@
-﻿using System.Collections.Generic;
+﻿using AutoMapper;
+using Championship.Domain.Entities;
+using Championship.Infra.Data.Repositories;
+using Championship.ViewModels;
+using System.Collections.Generic;
 using System.Web.Http;
 
 namespace Championship.Controllers
 {
     public class TeamController : ApiController
-    {   
+    {
+
+        private readonly TeamRepository _teamRepository = new TeamRepository();
+
         [HttpGet]
         // GET api/<controller>
         public IEnumerable<string> Get()
@@ -19,8 +26,11 @@ namespace Championship.Controllers
         }
 
         // POST api/<controller>
-        public void Post([FromBody]string value)
-        {
+        public void Post([FromBody]TeamViewModel team) { 
+            var teamDomain = Mapper.Map<TeamViewModel, Team>(team);
+            string uri = "Team/set";
+
+            _teamRepository.Add(teamDomain, uri);
         }
 
         // PUT api/<controller>/5
