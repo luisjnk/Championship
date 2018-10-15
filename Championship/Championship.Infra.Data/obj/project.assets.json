@@ -2,36 +2,7 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "EntityFramework/6.1.3": {
-        "type": "package",
-        "compile": {
-          "lib/net45/EntityFramework.SqlServer.dll": {},
-          "lib/net45/EntityFramework.dll": {}
-        },
-        "runtime": {
-          "lib/net45/EntityFramework.SqlServer.dll": {},
-          "lib/net45/EntityFramework.dll": {}
-        }
-      },
-      "EntityFramework.Commands/7.0.0-rc1-final": {
-        "type": "package",
-        "compile": {
-          "lib/net451/EntityFramework.Commands.dll": {}
-        },
-        "runtime": {
-          "lib/net451/EntityFramework.Commands.dll": {}
-        }
-      },
-      "EntityFramework.MicrosoftSqlServer/7.0.0-rc1-final": {
-        "type": "package",
-        "compile": {
-          "lib/net451/EntityFramework.MicrosoftSqlServer.dll": {}
-        },
-        "runtime": {
-          "lib/net451/EntityFramework.MicrosoftSqlServer.dll": {}
-        }
-      },
-      "FireSharp/2.0.4": {
+      "FireSharp/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.Bcl.Async": "1.0.168",
@@ -39,10 +10,10 @@
           "Newtonsoft.Json": "6.0.4"
         },
         "compile": {
-          "lib/portable-net45+sl5+wp8+win8/FireSharp.dll": {}
+          "lib/net45/FireSharp.dll": {}
         },
         "runtime": {
-          "lib/portable-net45+sl5+wp8+win8/FireSharp.dll": {}
+          "lib/net45/FireSharp.dll": {}
         }
       },
       "FireSharp.Serialization.JsonNet/1.1.0": {
@@ -160,85 +131,14 @@
     }
   },
   "libraries": {
-    "EntityFramework/6.1.3": {
-      "sha512": "+4M+YhFZHQc/cdctqMyXSdbQMrG3CdSgP8wFH+yiUYPYAnwNLug4xtrwMrekOHAgpTZicrhMbSYASxLDoRCMDQ==",
+    "FireSharp/2.0.0": {
+      "sha512": "ZYwngje22CjTtHYlQfC7RxD4PPud/PIQuJG/vWSmd5K6f04G+bEHRSnrkJqAuGDNXeEQU+e9KHhXc1JQxLqEhg==",
       "type": "package",
-      "path": "entityframework/6.1.3",
+      "path": "firesharp/2.0.0",
       "files": [
-        ".signature.p7s",
-        "content/App.config.transform",
-        "content/Web.config.transform",
-        "entityframework.6.1.3.nupkg.sha512",
-        "entityframework.nuspec",
-        "lib/net40/EntityFramework.SqlServer.dll",
-        "lib/net40/EntityFramework.SqlServer.xml",
-        "lib/net40/EntityFramework.dll",
-        "lib/net40/EntityFramework.xml",
-        "lib/net45/EntityFramework.SqlServer.dll",
-        "lib/net45/EntityFramework.SqlServer.xml",
-        "lib/net45/EntityFramework.dll",
-        "lib/net45/EntityFramework.xml",
-        "tools/EntityFramework.PowerShell.Utility.dll",
-        "tools/EntityFramework.PowerShell.dll",
-        "tools/EntityFramework.psd1",
-        "tools/EntityFramework.psm1",
-        "tools/about_EntityFramework.help.txt",
-        "tools/init.ps1",
-        "tools/install.ps1",
-        "tools/migrate.exe"
-      ]
-    },
-    "EntityFramework.Commands/7.0.0-rc1-final": {
-      "sha512": "4Hv7YX9/FXRBSrdUgXLMFpFRXkpBllBP6tBjv2A3T0cOwFRyGxBY2pxl9JBKi2Zz/AIArSQXOP/2BxRarpCkCA==",
-      "type": "package",
-      "path": "entityframework.commands/7.0.0-rc1-final",
-      "files": [
-        ".signature.p7s",
-        "app/ef",
-        "app/ef.cmd",
-        "app/project.json",
-        "build/netcore50/EntityFramework.Commands.props",
-        "entityframework.commands.7.0.0-rc1-final.nupkg.sha512",
-        "entityframework.commands.nuspec",
-        "lib/dnx451/EntityFramework.Commands.dll",
-        "lib/dnx451/EntityFramework.Commands.xml",
-        "lib/dnxcore50/EntityFramework.Commands.dll",
-        "lib/dnxcore50/EntityFramework.Commands.xml",
-        "lib/net451/EntityFramework.Commands.dll",
-        "lib/net451/EntityFramework.Commands.xml",
-        "lib/netcore50/_._",
-        "tools/EntityFramework.psd1",
-        "tools/EntityFramework.psm1",
-        "tools/OperationHandlers.cs",
-        "tools/about_EntityFramework.help.txt",
-        "tools/init.ps1",
-        "tools/install.ps1"
-      ]
-    },
-    "EntityFramework.MicrosoftSqlServer/7.0.0-rc1-final": {
-      "sha512": "ofgGi59Y2TfTC0PcxTeD//FQ8DTO9+BrL/myxlqIzEO+0ANgDvN8z8MMmW0XD5nmgP328lxS7MFTFiSFe8duVw==",
-      "type": "package",
-      "path": "entityframework.microsoftsqlserver/7.0.0-rc1-final",
-      "files": [
-        ".signature.p7s",
-        "entityframework.microsoftsqlserver.7.0.0-rc1-final.nupkg.sha512",
-        "entityframework.microsoftsqlserver.nuspec",
-        "lib/dotnet5.4/EntityFramework.MicrosoftSqlServer.dll",
-        "lib/dotnet5.4/EntityFramework.MicrosoftSqlServer.xml",
-        "lib/net451/EntityFramework.MicrosoftSqlServer.dll",
-        "lib/net451/EntityFramework.MicrosoftSqlServer.xml",
-        "lib/netcore50/EntityFramework.MicrosoftSqlServer.dll",
-        "lib/netcore50/EntityFramework.MicrosoftSqlServer.xml"
-      ]
-    },
-    "FireSharp/2.0.4": {
-      "sha512": "laSHpVUBG6iCTUixmpeUmYxie2zbziOBM+LU0v2A0ETE9dUyBA+8aY63xql/o8LXj+kFybBLYUKBUrLCZWaq+A==",
-      "type": "package",
-      "path": "firesharp/2.0.4",
-      "files": [
-        "firesharp.2.0.4.nupkg.sha512",
+        "firesharp.2.0.0.nupkg.sha512",
         "firesharp.nuspec",
-        "lib/portable-net45+sl5+wp8+win8/FireSharp.dll"
+        "lib/net45/FireSharp.dll"
       ]
     },
     "FireSharp.Serialization.JsonNet/1.1.0": {
@@ -690,10 +590,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "Championship.Domain >= 1.0.0",
-      "EntityFramework >= 6.1.3",
-      "EntityFramework.Commands >= 7.0.0-rc1-final",
-      "EntityFramework.MicrosoftSqlServer >= 7.0.0-rc1-final",
-      "FireSharp >= 2.0.4",
+      "FireSharp >= 2.0.0",
       "FireSharp.Serialization.JsonNet >= 1.1.0",
       "NETStandard.Library >= 2.0.3"
     ]
@@ -743,21 +640,9 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
-          "EntityFramework": {
-            "target": "Package",
-            "version": "[6.1.3, )"
-          },
-          "EntityFramework.Commands": {
-            "target": "Package",
-            "version": "[7.0.0-rc1-final, )"
-          },
-          "EntityFramework.MicrosoftSqlServer": {
-            "target": "Package",
-            "version": "[7.0.0-rc1-final, )"
-          },
           "FireSharp": {
             "target": "Package",
-            "version": "[2.0.4, )"
+            "version": "[2.0.0, )"
           },
           "FireSharp.Serialization.JsonNet": {
             "target": "Package",
@@ -783,37 +668,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'EntityFramework 6.1.3' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
-      "libraryId": "EntityFramework",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'EntityFramework.Commands 7.0.0-rc1-final' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
-      "libraryId": "EntityFramework.Commands",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'EntityFramework.MicrosoftSqlServer 7.0.0-rc1-final' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
-      "libraryId": "EntityFramework.MicrosoftSqlServer",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'FireSharp 2.0.4' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'FireSharp 2.0.0' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
       "libraryId": "FireSharp",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"

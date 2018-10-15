@@ -7,3 +7,11 @@ C:\Users\luis_\source\repos\Championship\Championship.Application\obj\Debug\nets
 C:\Users\luis_\source\repos\Championship\Championship.Application\obj\Debug\netstandard2.0\Championship.Application.AssemblyInfo.cs
 C:\Users\luis_\source\repos\Championship\Championship.Application\obj\Debug\netstandard2.0\Championship.Application.dll
 C:\Users\luis_\source\repos\Championship\Championship.Application\obj\Debug\netstandard2.0\Championship.Application.pdb
+C:\projects\Championship\Championship\Championship.Application\bin\Debug\netstandard2.0\Championship.Application.deps.json
+C:\projects\Championship\Championship\Championship.Application\bin\Debug\netstandard2.0\Championship.Application.dll
+C:\projects\Championship\Championship\Championship.Application\bin\Debug\netstandard2.0\Championship.Application.pdb
+C:\projects\Championship\Championship\Championship.Application\obj\Debug\netstandard2.0\Championship.Application.csproj.CoreCompileInputs.cache
+C:\projects\Championship\Championship\Championship.Application\obj\Debug\netstandard2.0\Championship.Application.AssemblyInfoInputs.cache
+C:\projects\Championship\Championship\Championship.Application\obj\Debug\netstandard2.0\Championship.Application.AssemblyInfo.cs
+C:\projects\Championship\Championship\Championship.Application\obj\Debug\netstandard2.0\Championship.Application.dll
+C:\projects\Championship\Championship\Championship.Application\obj\Debug\netstandard2.0\Championship.Application.pdb

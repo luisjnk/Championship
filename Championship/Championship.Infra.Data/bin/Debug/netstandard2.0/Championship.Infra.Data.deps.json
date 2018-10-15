@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "748abd748ba723b03f6c8284d68c77fbc497401a"
+    "signature": "a8373a2692531399ddddce8082c0ba7bbe1c655e"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,68 +10,23 @@
       "Championship.Infra.Data/1.0.0": {
         "dependencies": {
           "Championship.Domain": "1.0.0",
-          "EntityFramework": "6.1.3",
-          "EntityFramework.Commands": "7.0.0-rc1-final",
-          "EntityFramework.MicrosoftSqlServer": "7.0.0-rc1-final",
-          "FireSharp": "2.0.4",
-          "FireSharp.Serialization.JsonNet": "1.1.0",
+          "FireSharp": "2.0.0",
           "NETStandard.Library": "2.0.3"
         },
         "runtime": {
           "Championship.Infra.Data.dll": {}
         }
       },
-      "EntityFramework/6.1.3": {
-        "runtime": {
-          "lib/net45/EntityFramework.SqlServer.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.1.40302.0"
-          },
-          "lib/net45/EntityFramework.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.1.40302.0"
-          }
-        }
-      },
-      "EntityFramework.Commands/7.0.0-rc1-final": {
-        "runtime": {
-          "lib/net451/EntityFramework.Commands.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.0.11116"
-          }
-        }
-      },
-      "EntityFramework.MicrosoftSqlServer/7.0.0-rc1-final": {
-        "runtime": {
-          "lib/net451/EntityFramework.MicrosoftSqlServer.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.0.11116"
-          }
-        }
-      },
-      "FireSharp/2.0.4": {
+      "FireSharp/2.0.0": {
         "dependencies": {
           "Microsoft.Bcl.Async": "1.0.168",
           "Microsoft.Net.Http": "2.2.28",
           "Newtonsoft.Json": "6.0.4"
         },
         "runtime": {
-          "lib/portable-net45+sl5+wp8+win8/FireSharp.dll": {
-            "assemblyVersion": "2.0.3.0",
-            "fileVersion": "2.0.3.0"
-          }
-        }
-      },
-      "FireSharp.Serialization.JsonNet/1.1.0": {
-        "dependencies": {
-          "FireSharp": "2.0.4",
-          "Newtonsoft.Json": "6.0.4",
-          "RestSharp": "104.4.0"
-        },
-        "runtime": {
-          "lib/net45/FireSharp.Serialization.JsonNet.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.0.0"
+          "lib/net45/FireSharp.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
           }
         }
       },
@@ -130,14 +85,6 @@
           }
         }
       },
-      "RestSharp/104.4.0": {
-        "runtime": {
-          "lib/net4/RestSharp.dll": {
-            "assemblyVersion": "104.4.0.0",
-            "fileVersion": "104.4.0.0"
-          }
-        }
-      },
       "Championship.Domain/1.0.0": {
         "runtime": {
           "Championship.Domain.dll": {}
@@ -151,40 +98,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "EntityFramework/6.1.3": {
+    "FireSharp/2.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+4M+YhFZHQc/cdctqMyXSdbQMrG3CdSgP8wFH+yiUYPYAnwNLug4xtrwMrekOHAgpTZicrhMbSYASxLDoRCMDQ==",
-      "path": "entityframework/6.1.3",
-      "hashPath": "entityframework.6.1.3.nupkg.sha512"
-    },
-    "EntityFramework.Commands/7.0.0-rc1-final": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-4Hv7YX9/FXRBSrdUgXLMFpFRXkpBllBP6tBjv2A3T0cOwFRyGxBY2pxl9JBKi2Zz/AIArSQXOP/2BxRarpCkCA==",
-      "path": "entityframework.commands/7.0.0-rc1-final",
-      "hashPath": "entityframework.commands.7.0.0-rc1-final.nupkg.sha512"
-    },
-    "EntityFramework.MicrosoftSqlServer/7.0.0-rc1-final": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ofgGi59Y2TfTC0PcxTeD//FQ8DTO9+BrL/myxlqIzEO+0ANgDvN8z8MMmW0XD5nmgP328lxS7MFTFiSFe8duVw==",
-      "path": "entityframework.microsoftsqlserver/7.0.0-rc1-final",
-      "hashPath": "entityframework.microsoftsqlserver.7.0.0-rc1-final.nupkg.sha512"
-    },
-    "FireSharp/2.0.4": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-laSHpVUBG6iCTUixmpeUmYxie2zbziOBM+LU0v2A0ETE9dUyBA+8aY63xql/o8LXj+kFybBLYUKBUrLCZWaq+A==",
-      "path": "firesharp/2.0.4",
-      "hashPath": "firesharp.2.0.4.nupkg.sha512"
-    },
-    "FireSharp.Serialization.JsonNet/1.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Cm2ZuswLT4iPLLpUzKa6oiCKaDv+d1Dc6WxC/xVb19prnQR5zK0jnOfpdVXIabM00SaqzP7kA9l7381FxPSVPA==",
-      "path": "firesharp.serialization.jsonnet/1.1.0",
-      "hashPath": "firesharp.serialization.jsonnet.1.1.0.nupkg.sha512"
+      "sha512": "sha512-ZYwngje22CjTtHYlQfC7RxD4PPud/PIQuJG/vWSmd5K6f04G+bEHRSnrkJqAuGDNXeEQU+e9KHhXc1JQxLqEhg==",
+      "path": "firesharp/2.0.0",
+      "hashPath": "firesharp.2.0.0.nupkg.sha512"
     },
     "Microsoft.Bcl/1.1.9": {
       "type": "package",
@@ -234,13 +153,6 @@
       "sha512": "sha512-POcHreXEQ0vqCFkYLlQ7+WYiVFvi5z/mhZSMIxLorb1Mm8VUWwSpyFXNEC4Um4APWSaRTkzaYXP/dWrFrub/BA==",
       "path": "newtonsoft.json/6.0.4",
       "hashPath": "newtonsoft.json.6.0.4.nupkg.sha512"
-    },
-    "RestSharp/104.4.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-gcd5+IiTCl32GdZm906SUMzF0TBtz/8br9RP8a2Y8ZSxZHub3qLuhZDd3kHhifEzTeoS8LiX94dk/vpo7ObPbw==",
-      "path": "restsharp/104.4.0",
-      "hashPath": "restsharp.104.4.0.nupkg.sha512"
     },
     "Championship.Domain/1.0.0": {
       "type": "project",
