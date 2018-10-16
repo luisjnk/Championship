@@ -16,3 +16,12 @@ C:\projects\Championship\Championship\Championship.Domain\obj\Debug\netstandard2
 C:\projects\Championship\Championship\Championship.Domain\obj\Debug\netstandard2.0\Championship.Domain.AssemblyInfo.cs
 C:\projects\Championship\Championship\Championship.Domain\obj\Debug\netstandard2.0\Championship.Domain.dll
 C:\projects\Championship\Championship\Championship.Domain\obj\Debug\netstandard2.0\Championship.Domain.pdb
+C:\Challenges\nibo\Championship\Championship\Championship.Domain\bin\Debug\netstandard2.0\Championship.Domain.deps.json
+C:\Challenges\nibo\Championship\Championship\Championship.Domain\bin\Debug\netstandard2.0\Championship.Domain.dll
+C:\Challenges\nibo\Championship\Championship\Championship.Domain\bin\Debug\netstandard2.0\Championship.Domain.pdb
+C:\Challenges\nibo\Championship\Championship\Championship.Domain\obj\Debug\netstandard2.0\Championship.Domain.csprojAssemblyReference.cache
+C:\Challenges\nibo\Championship\Championship\Championship.Domain\obj\Debug\netstandard2.0\Championship.Domain.csproj.CoreCompileInputs.cache
+C:\Challenges\nibo\Championship\Championship\Championship.Domain\obj\Debug\netstandard2.0\Championship.Domain.AssemblyInfoInputs.cache
+C:\Challenges\nibo\Championship\Championship\Championship.Domain\obj\Debug\netstandard2.0\Championship.Domain.AssemblyInfo.cs
+C:\Challenges\nibo\Championship\Championship\Championship.Domain\obj\Debug\netstandard2.0\Championship.Domain.dll
+C:\Challenges\nibo\Championship\Championship\Championship.Domain\obj\Debug\netstandard2.0\Championship.Domain.pdb

@@ -32,7 +32,7 @@ namespace Championship.Controllers
             {
                 Tournament tournamentDomain = Mapper.Map<TournamentViewModel, Tournament>(tournament);
                 tournamentDomain.genId();
-                string uri = "Tournament/set";
+                string uri = "Tournament/" + tournament.Name;
                  var response =  _tournamentRepository.Add(tournamentDomain, uri);
                 TournamentViewModel tournamentVM = Mapper.Map<Tournament, TournamentViewModel>(tournamentDomain);
                 return tournamentVM;
@@ -53,5 +53,10 @@ namespace Championship.Controllers
         {
         }
 
+        [Route("api/tournament/keys/generate")]
+        public IEnumerable<string> PostTournament()
+        {
+            return new string[] { "value1", "value2" };
+        }
     }
 }

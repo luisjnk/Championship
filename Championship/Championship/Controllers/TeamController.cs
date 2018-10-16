@@ -33,6 +33,18 @@ namespace Championship.Controllers
             _teamRepository.Add(teamDomain, uri);
         }
 
+        // POST api/<controller>
+        [Route("api/team/bulk/insert")]
+        public void PostBulkTeam([FromBody]List<TeamViewModel> teams)
+        {
+            var team = teams;
+
+          /*  var teamDomain = Mapper.Map<TeamViewModel, Team>(team);
+            string uri = "Team/set";
+
+            _teamRepository.Add(teamDomain, uri);*/
+        }
+
         // PUT api/<controller>/5
         public void Put(int id, [FromBody]string value)
         {
