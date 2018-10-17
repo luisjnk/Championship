@@ -25,6 +25,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Championship.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Championship.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Championship.Domain.dll": {}
+        }
       }
     }
   },
@@ -168,10 +178,16 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Championship.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Championship.Domain/Championship.Domain.csproj",
+      "msbuildProject": "../Championship.Domain/Championship.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Championship.Domain >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -204,7 +220,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Challenges\\nibo\\Championship\\Championship\\Championship.Domain\\Championship.Domain.csproj": {
+              "projectPath": "C:\\Challenges\\nibo\\Championship\\Championship\\Championship.Domain\\Championship.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

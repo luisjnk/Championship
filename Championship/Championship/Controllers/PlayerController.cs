@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
 using Championship.Domain.Entities;
-using Championship.Infra.Data.Repositories;
 using Championship.ViewModels;
 using System.Collections.Generic;
 using System.Web.Http;
@@ -9,7 +8,7 @@ namespace Championship.Controllers
 {
     public class PlayerController : ApiController
     {
-        private readonly PlayerRepository _playerRepository = new PlayerRepository();
+        //private readonly PlayerRepository _playerRepository = new PlayerRepository();
 
         // GET api/<controller>
         public IEnumerable<string> Get()
@@ -29,7 +28,7 @@ namespace Championship.Controllers
             var playerDomain = Mapper.Map<PlayerViewModel, Player>(player);
             string uri = "players/set";
 
-            _playerRepository.Add(playerDomain, uri);
+           // _playerRepository.Add(playerDomain, uri);
         }
 
         // PUT api/<controller>/5

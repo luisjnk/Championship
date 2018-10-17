@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
+using Championship.Application.Interfaces;
 using Championship.Domain.Entities;
-using Championship.Infra.Data.Repositories;
 using Championship.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -10,8 +10,12 @@ namespace Championship.Controllers
 {
     public class TournamentController : ApiController
     {
+        private  ITournamentAppService _tournamentAppService;
 
-        private readonly TournamentRepository _tournamentRepository = new TournamentRepository();
+        public TournamentController(ITournamentAppService tournamentAppService)
+        {
+            _tournamentAppService = tournamentAppService;
+        }
 
         [HttpGet]
         // GET api/<controller>
@@ -33,7 +37,7 @@ namespace Championship.Controllers
                 Tournament tournamentDomain = Mapper.Map<TournamentViewModel, Tournament>(tournament);
                 tournamentDomain.genId();
                 string uri = "Tournament/" + tournament.Name;
-                 var response =  _tournamentRepository.Add(tournamentDomain, uri);
+                 var response = _tournamentAppService.Add(tournamentDomain, uri);
                 TournamentViewModel tournamentVM = Mapper.Map<Tournament, TournamentViewModel>(tournamentDomain);
                 return tournamentVM;
             }
