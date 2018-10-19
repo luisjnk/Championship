@@ -9,6 +9,7 @@ namespace Championship
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
             AutoMapperConfig.RegisterMappings();
+            ContainerConfig.Configure();
         }
     }
 }

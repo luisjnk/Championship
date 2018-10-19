@@ -176,23 +176,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\luis_\\.nuget\\packages\\": {},
+    "C:\\Users\\ljunqueira\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Challenges\\nibo\\Championship\\Championship\\Championship.Domain\\Championship.Domain.csproj",
+      "projectUniqueName": "C:\\projects\\Championship\\Championship\\Championship.Domain\\Championship.Domain.csproj",
       "projectName": "Championship.Domain",
-      "projectPath": "C:\\Challenges\\nibo\\Championship\\Championship\\Championship.Domain\\Championship.Domain.csproj",
-      "packagesPath": "C:\\Users\\luis_\\.nuget\\packages\\",
-      "outputPath": "C:\\Challenges\\nibo\\Championship\\Championship\\Championship.Domain\\obj\\",
+      "projectPath": "C:\\projects\\Championship\\Championship\\Championship.Domain\\Championship.Domain.csproj",
+      "packagesPath": "C:\\Users\\ljunqueira\\.nuget\\packages\\",
+      "outputPath": "C:\\projects\\Championship\\Championship\\Championship.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\luis_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ljunqueira\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

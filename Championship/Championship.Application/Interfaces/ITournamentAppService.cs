@@ -2,7 +2,7 @@
 
 namespace Championship.Application.Interfaces
 {
-    public interface ITournamentAppService :IAppServiceBase<Tournament>
+    public interface ITournamentAppService : IAppServiceBase<Tournament>
     {
         void Generate(Tournament obj); 
     }

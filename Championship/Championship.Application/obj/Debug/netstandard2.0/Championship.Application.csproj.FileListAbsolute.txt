@@ -27,3 +27,7 @@ C:\Challenges\nibo\Championship\Championship\Championship.Application\obj\Debug\
 C:\Challenges\nibo\Championship\Championship\Championship.Application\obj\Debug\netstandard2.0\Championship.Application.csproj.CopyComplete
 C:\Challenges\nibo\Championship\Championship\Championship.Application\obj\Debug\netstandard2.0\Championship.Application.dll
 C:\Challenges\nibo\Championship\Championship\Championship.Application\obj\Debug\netstandard2.0\Championship.Application.pdb
+C:\projects\Championship\Championship\Championship.Application\bin\Debug\netstandard2.0\Championship.Domain.dll
+C:\projects\Championship\Championship\Championship.Application\bin\Debug\netstandard2.0\Championship.Domain.pdb
+C:\projects\Championship\Championship\Championship.Application\obj\Debug\netstandard2.0\Championship.Application.csprojAssemblyReference.cache
+C:\projects\Championship\Championship\Championship.Application\obj\Debug\netstandard2.0\Championship.Application.csproj.CopyComplete

@@ -474,3 +474,17 @@ C:\Challenges\nibo\Championship\Championship\Championship\bin\Ninject.Web.Common
 C:\Challenges\nibo\Championship\Championship\Championship\bin\Ninject.Web.WebApi.xml
 C:\Challenges\nibo\Championship\Championship\Championship\bin\Microsoft.Threading.Tasks.xml
 C:\Challenges\nibo\Championship\Championship\Championship\bin\Microsoft.Threading.Tasks.Extensions.xml
+C:\projects\Championship\Championship\Championship\bin\Championship.Application.dll
+C:\projects\Championship\Championship\Championship\bin\Ninject.dll
+C:\projects\Championship\Championship\Championship\bin\Ninject.Web.Common.dll
+C:\projects\Championship\Championship\Championship\bin\Ninject.Web.WebApi.dll
+C:\projects\Championship\Championship\Championship\bin\WebActivatorEx.dll
+C:\projects\Championship\Championship\Championship\bin\Championship.Application.pdb
+C:\projects\Championship\Championship\Championship\bin\Ninject.xml
+C:\projects\Championship\Championship\Championship\bin\Ninject.Web.Common.xml
+C:\projects\Championship\Championship\Championship\bin\Ninject.Web.WebApi.xml
+C:\projects\Championship\Championship\Championship\bin\Autofac.dll
+C:\projects\Championship\Championship\Championship\bin\Autofac.Integration.WebApi.dll
+C:\projects\Championship\Championship\Championship\bin\Autofac.xml
+C:\projects\Championship\Championship\Championship\bin\Autofac.Integration.WebApi.pdb
+C:\projects\Championship\Championship\Championship\bin\Autofac.Integration.WebApi.xml
