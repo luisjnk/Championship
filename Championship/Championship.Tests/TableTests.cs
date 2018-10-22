@@ -9,34 +9,54 @@ namespace Championship.Tests
     [TestClass]
     public class TableTests
     {
+        private Table _table;
+        public void createTable()
+        {
+
+            Table table = new Table();
+            Team firstPlace = new Team();
+            firstPlace.Name = "First Team";
+            firstPlace.Score = 3;
+
+            Team secondPlace = new Team();
+            secondPlace.Name = "Second Team";
+            secondPlace.Score = 2;
+
+            Team tirdhPlace = new Team();
+            tirdhPlace.Name = "Tirdh Team";
+            tirdhPlace.Score = 1;
+
+            Team foruthPlace = new Team();
+            foruthPlace.Name = "Fourth Team";
+            foruthPlace.Score = 1;
+
+            table.keys = new List<Key>();
+   
+            Key key = new Key();
+
+            key.Name = "First Key";
+            key.Teams = new List<Team>();
+            key.Teams.Add(firstPlace);
+            key.Teams.Add(secondPlace);
+            key.Teams.Add(tirdhPlace);
+            key.Teams.Add(foruthPlace);
+
+            table.keys.Add(key);
+
+            _table = table;
+
+        }
+
         [TestMethod]
         public void IncreaseWinnerScoreAndSecondPlaceIsTheNewFirst()
         {
             //Arange
-            Team firstTeam = new Team();
-            firstTeam.Name = "First Team";
-
-            //ACT       
-            Team secondTeam = new Team();
-            secondTeam.Name = "Second Team";
-
-            Table table = new Table();
-            Place firstPlace = new Place();
-            firstPlace.Name = "First Team";
-            firstPlace.Score = 3;
-
-            Place secondPlace = new Place();
-            firstPlace.Name = "Second Team";
-            firstPlace.Score = 1;
-            table.places = new List<Place>();
-            table.places.Add(firstPlace);
-            table.places.Add(secondPlace);
-            
-            table.IncreaseWinnerScore(secondTeam);
+            createTable();
+            _table.keys[0].IncreaseWinnerScore(_table.keys[0].Teams[1]);
 
             //Assert
-            Assert.AreEqual(table.places[0].Score, 4);
-            Assert.AreEqual(table.places[0].Name, "Second Team");
+            Assert.AreEqual(_table.keys[0].Teams[0].Score, 4);
+            Assert.AreEqual(_table.keys[0].Teams[0].Name, "Second Team");
         }
 
     }
