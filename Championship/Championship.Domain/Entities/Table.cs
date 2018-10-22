@@ -1,16 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace Championship.Domain.Entities
 {
     public class Table
     {
-        public Places place;
+        public List<Place> places;
 
-        public string Name;
+        public void IncreaseWinnerScore(Team team)
+        {
+            Place TeamOnPlace = places.FirstOrDefault(place => place.Name == team.Name);
+            TeamOnPlace.Score = TeamOnPlace.Score  + 3;
+            OrderByTable();
+        }
 
-        public int Points;
+        private void OrderByTable()
+        {
+           places.OrderBy(place => place.Score);
+        }
 
     }
 }

@@ -5,6 +5,12 @@ namespace Championship.Domain.Models
 {
    public class MatchModel
     {
+       public void ManageMatch(Team firstTeam, Team secondTeam)
+        {
+            Team winner = StartMatch(firstTeam,secondTeam);
+            
+        } 
+
        public Team StartMatch(Team firstTeam, Team secondTeam)
         {
             Team[] match = new Team[2];
@@ -34,5 +40,6 @@ namespace Championship.Domain.Models
 
             return winner;
         }
+        
     }
 }
