@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 namespace Championship.ViewModels
 {
     public class TournamentViewModel
-    {   [Key]
+    {   //[Key]
         public Guid TournamentId { get; set; }
 
         [Required(ErrorMessage = "Please, fill the field Name")]
@@ -15,7 +15,11 @@ namespace Championship.ViewModels
         public string Name { get; set; }
 
         [Required(ErrorMessage = "Please, fill the field TeamsCount")]
-        public int TeamsCount { get; set; }
+        public List<TeamViewModel> Teams;
+
+        public int NumberOfKeys { get; set; }
+
+        public List<KeyViewModel> keys { get; set; }
 
     }
 

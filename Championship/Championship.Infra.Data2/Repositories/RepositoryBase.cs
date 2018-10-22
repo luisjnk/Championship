@@ -54,5 +54,14 @@ namespace Championship.Infra.Data.Repositories
         {
             throw new NotImplementedException();
         }
+
+        public async Task<TEntity> GetByName(string uri)
+        {
+            FirebaseResponse response = await this.client.GetAsync(uri);
+            TEntity entity = response.ResultAs<TEntity>(); //The response will contain the data being retreived
+
+            return entity;
+            throw new NotImplementedException();
+        }
     }
 }

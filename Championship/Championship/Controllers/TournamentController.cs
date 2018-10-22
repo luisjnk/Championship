@@ -36,9 +36,7 @@ namespace Championship.Controllers
             {
                 Tournament tournamentDomain = Mapper.Map<TournamentViewModel, Tournament>(tournament);
                 tournamentDomain.genId();
-                string uri = "Tournament/" + tournament.Name;
-                _tournamentAppService.Generate(tournamentDomain);
-
+                _tournamentAppService.CreateTournament(tournamentDomain);
                 //var response = _tournamentAppService.Add(tournamentDomain, uri);
                 /*TournamentViewModel tournamentVM = Mapper.Map<Tournament, TournamentViewModel>(tournamentDomain);
                 return tournamentVM;*/

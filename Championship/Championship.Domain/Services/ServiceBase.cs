@@ -49,5 +49,10 @@ namespace Championship.Domain.Services
         {
             throw new NotImplementedException();
         }
+
+        public string CreateURI(string name, string path)
+        {
+            return path + name;
+;        }
     }
 }

@@ -6,11 +6,8 @@
 
   <ItemGroup>
     <Compile Remove="Entities\NovaPasta\**" />
-    <Compile Remove="NovaPasta\**" />
     <EmbeddedResource Remove="Entities\NovaPasta\**" />
-    <EmbeddedResource Remove="NovaPasta\**" />
     <None Remove="Entities\NovaPasta\**" />
-    <None Remove="NovaPasta\**" />
   </ItemGroup>
 
   <ItemGroup>

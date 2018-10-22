@@ -1,10 +1,21 @@
-﻿using Championship.Domain.Entities;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Championship.Domain.Interfaces
 {
-    public interface ITournamentRepository : IRepositoryBase<Tournament>
+    public interface IRepositoryBase<TEntity> where TEntity : class
     {
-        IEnumerable<Tournament> SearchByName(string name);
+        Task<TEntity> Add(TEntity obj, string uri);
+
+        TEntity GetById(int id);
+
+        IEnumerable<TEntity> GetAll();
+
+        void Update(TEntity obj);
+
+        void Remove(TEntity obj);
+
+        void Dispose();
+
     }
 }

@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 
 namespace Championship.Domain.Interfaces.Services
 {
-    public interface  IServiceBase<TEntity> where TEntity : class
+    public interface IServiceBase<TEntity> where TEntity : class
     {
         Task<TEntity> Add(TEntity obj, string uri);
 

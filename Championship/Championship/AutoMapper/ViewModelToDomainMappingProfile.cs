@@ -13,8 +13,8 @@ namespace Championship.AutoMapper
 
         protected void Configure()
         {
-            var player = new Player();
-            Mapper.Map<Player, PlayerViewModel>(player);
+            /*var player = new Player();
+            Mapper.Map<Player, PlayerViewModel>(player);*/
         }
     }
 }
