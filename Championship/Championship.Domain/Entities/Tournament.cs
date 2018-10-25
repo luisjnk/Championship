@@ -15,6 +15,8 @@ namespace Championship.Domain.Entities
 
         public List<Key> Keys { get; set; }
 
+        public List<Match> Matches { get; set; }
+
         public void genId()
         {
             this.TournamentId = Guid.NewGuid();

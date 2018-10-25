@@ -100,8 +100,8 @@ namespace Championship.Tests
         public void UnDrawKey()
         {
             //Arange
-            createTable();
-            _table.keys[0].IncreaseWinnerScore(_table.keys[0].Teams[1]);
+            createTableWDraw();
+            _table.keys[0].Undraw();
 
             //Assert
             Assert.AreEqual(_table.keys[0].Teams[0].Score, 5);

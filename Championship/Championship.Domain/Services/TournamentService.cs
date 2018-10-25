@@ -77,6 +77,28 @@ namespace Championship.Domain.Services
 
             }
             return tournament;
-        }       
+        }
+
+        private Tournament CreateMatches(Tournament tournament)
+        {
+            int index = 0;
+            Key key;
+            List<Team> teams = new List<Team>();
+            foreach (Team team in tournament.Teams)
+            {
+                teams.Add(team); 
+                bool keyIsFull = (index % 4) == 0;
+                if (keyIsFull)
+                {
+                    key = new Key();
+                    key.Teams = teams;
+                    tournament.Keys.Add(key);
+                    teams = new List<Team>();
+                }
+                index++;
+
+            }
+            return tournament;
+        }
     }
 }

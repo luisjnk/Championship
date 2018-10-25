@@ -460,7 +460,6 @@ C:\Challenges\nibo\Championship\Championship\Championship\bin\Championship.Appli
 C:\Challenges\nibo\Championship\Championship\Championship\bin\Championship.Infra.Data.dll
 C:\Challenges\nibo\Championship\Championship\Championship\bin\Ninject.dll
 C:\Challenges\nibo\Championship\Championship\Championship\bin\Ninject.Web.Common.dll
-C:\Challenges\nibo\Championship\Championship\Championship\bin\Ninject.Web.Common.WebHost.dll
 C:\Challenges\nibo\Championship\Championship\Championship\bin\Ninject.Web.WebApi.dll
 C:\Challenges\nibo\Championship\Championship\Championship\bin\WebActivatorEx.dll
 C:\Challenges\nibo\Championship\Championship\Championship\bin\FireSharp.dll
@@ -470,7 +469,6 @@ C:\Challenges\nibo\Championship\Championship\Championship\bin\Championship.Infra
 C:\Challenges\nibo\Championship\Championship\Championship\bin\Championship.Infra.Data.dll.config
 C:\Challenges\nibo\Championship\Championship\Championship\bin\Ninject.xml
 C:\Challenges\nibo\Championship\Championship\Championship\bin\Ninject.Web.Common.xml
-C:\Challenges\nibo\Championship\Championship\Championship\bin\Ninject.Web.Common.WebHost.xml
 C:\Challenges\nibo\Championship\Championship\Championship\bin\Ninject.Web.WebApi.xml
 C:\Challenges\nibo\Championship\Championship\Championship\bin\Microsoft.Threading.Tasks.xml
 C:\Challenges\nibo\Championship\Championship\Championship\bin\Microsoft.Threading.Tasks.Extensions.xml
@@ -701,3 +699,8 @@ C:\Challenges\nibo\nibo2\Championship\Championship\Championship\obj\Debug\Champi
 C:\Challenges\nibo\nibo2\Championship\Championship\Championship\obj\Debug\Championship.API.csproj.CopyComplete
 C:\Challenges\nibo\nibo2\Championship\Championship\Championship\obj\Debug\Championship.dll
 C:\Challenges\nibo\nibo2\Championship\Championship\Championship\obj\Debug\Championship.pdb
+C:\Challenges\nibo\Championship\Championship\Championship\bin\Autofac.dll
+C:\Challenges\nibo\Championship\Championship\Championship\bin\Autofac.Integration.WebApi.dll
+C:\Challenges\nibo\Championship\Championship\Championship\bin\Autofac.xml
+C:\Challenges\nibo\Championship\Championship\Championship\bin\Autofac.Integration.WebApi.pdb
+C:\Challenges\nibo\Championship\Championship\Championship\bin\Autofac.Integration.WebApi.xml

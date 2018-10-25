@@ -43,9 +43,11 @@ namespace Championship.Domain.Entities
 
         public List<List<Team>> Undraw()
         {
-            return  Teams.GroupBy(t => t.Score)
+            var newteams =  Teams.GroupBy(t => t.Score)
                         .Select(grp => grp.ToList()).ToList();
-            
+
+
+            return newteams;
         }
     }
 }

@@ -21,6 +21,8 @@ namespace Championship.ViewModels
 
         public List<KeyViewModel> keys { get; set; }
 
+        public List<MatchViewModel> matches { get; set; }
+        
     }
 
 }
